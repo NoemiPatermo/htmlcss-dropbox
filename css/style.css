@@ -170,15 +170,26 @@ text-align: center;
     float: left;
     margin: 15px;
     width: 100%;
-    border: 5px solid black;
     height: 400px;
 }
 
 .partner-1{
-    width: 60%;
-    border: 5px solid hotpink;
+    width: 50%;
+    height: 400px;
+    background-image: url(../img/partner.png);
+    background-size: cover;
+    background-position:center;
+    
 }
 .partner-2{
-    width: 40%;
-    border: 5px solid indigo;
+    width: 50%;
+    height: 400px ;
+    line-height: 30px;
+    margin-top: 20px;
+    padding-left: 50px;
+    
+}
+#boss{
+    height: 30px;
+    width: 120px;
 }
