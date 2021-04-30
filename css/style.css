@@ -119,14 +119,30 @@ text-align: center;
 .item{
     height: 50px;
     text-align: center; 
+    border-bottom: 1px solid black;
+    margin-top: 10px;
 }
 .testo-professional{
-    height: 50px;
+    height: 150px;
     margin-top: 20px;
     margin-right: 20px;
+    margin-left: 20px;
+    line-height: 25px;
 }
 .enterprice{
     height: 150px;
     width: 100%;
     border: 3px solid black;
+}
+/*SISTEMA
+.utente{
+    
+}
+*/
+#premium{
+    color: ghostwhite;
+    background-color: blue;
+    height: 50px;
+    width: 170px;
+    margin-top: 20px;
 }
