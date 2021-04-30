@@ -113,11 +113,11 @@ text-align: center;
 }
 .classes{
     width: 100%;
-    height: 600px;
+    height: 800px;
 }
 
 .item{
-    height: 50px;
+    height: 30px;
     text-align: center; 
     border-bottom: 1px solid black;
     margin-top: 10px;
@@ -129,10 +129,13 @@ text-align: center;
     margin-left: 20px;
     line-height: 25px;
 }
+.offerta{
+    margin-top: 30px;
+}
 .enterprice{
-    height: 150px;
+    height: 200px;
     width: 100%;
-    border: 3px solid black;
+    border: 2px solid black;
 }
 /*SISTEMA
 .utente{
@@ -145,4 +148,18 @@ text-align: center;
     height: 50px;
     width: 170px;
     margin-top: 20px;
+}
+.testo-enterprice{
+    text-align: left;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#contact{
+    background-color: blue;
+    color: ghostwhite;
+    height: 40px;
+    width: 160px;
+    text-align: middle;
+    
 }
