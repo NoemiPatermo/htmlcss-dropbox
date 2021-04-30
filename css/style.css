@@ -137,11 +137,7 @@ text-align: center;
     width: 100%;
     border: 2px solid black;
 }
-/*SISTEMA
-.utente{
-    
-}
-*/
+
 #premium{
     color: ghostwhite;
     background-color: blue;
@@ -154,12 +150,16 @@ text-align: center;
     line-height: 40px;
     margin-left: 20px;
     margin-top: 15px;
+    
 }
 #contact{
     background-color: blue;
     color: ghostwhite;
     height: 40px;
     width: 160px;
-    text-align: middle;
-    
+    text-align: middle;  
+}
+.container-3{
+    max-width: 1200px;
+    margin: 0 auto;
 }
