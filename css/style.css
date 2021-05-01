@@ -252,43 +252,51 @@ text-align: center;
     margin-left: 70px;
     margin-bottom: 20px;
 }
+/*START BLOCCHI COLORATI*/
+.layout{
+    height: 600px;
+    border: 1px solid red;
+    
+}
+.box-1{
+    width: 33.3%;
+    height: 500px;
+    border: 1px solid black;
+}
+.box-2{
+    width: 33.3%;
+    height: 500px;
+    border: 1px solid black;
+}
+.box-3 {
+    width: 33.3%;
+    height: 500px;
+    border: 1px solid black;
+}
 .box{
     float: left;
-    height: 600px;
-    width: calc(100% / 3);
-
-    border: 5px solid green;
-}
-.green .brown{
     width: 50%;
-    height: 150px;
-    border: 2px solid red;
+    height: 50%; 
 }
-
-.box-2{
-    float: left;
-    width: calc(100% / 3);
-    border: 5px solid black;
-    height: 600px;
+.green{
+    background-color: green;
 }
-.box-3{
-    float: left;
-    height: 600px;
-    width: calc(100% / 3);
-    border: 5px solid blueviolet;
+.immagine-1{
+    height: 50px;
 }
-.box-4{
-    float: left;
-    height: 300px;
-    width: 100%;
-    background-color: #b4d0e7;
-    color:saddlebrown;
-    text-align: left;
-    padding-top: 50px;
-    padding-left: 190px;
-    border: 5px solid blue;
+.immagine 3 {
+    height: 50px;
 }
-
+.brown{
+    background-color: brown;
+}
+.yellow{
+    background-color: lightblue;
+}
+.rosso{
+    background-color: orangered;
+}
+/*box orizzontale*/
 .client{
     width: 100%; 
 }
@@ -297,12 +305,15 @@ text-align: center;
     width: 180px;
     font-weight: 600px;  
 }
+/*sezione faq*/
+
 .container-6{
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .domande{
-    margin-top: 60px;
+    margin-top: 100px;
 }
 [class^=es-faq]{
     margin-top: 30px;
@@ -310,13 +321,15 @@ text-align: center;
     margin-bottom: 30px;
 }
 .centrato{
-    margin-left: 100px;    
+    margin-left: 100px; 
+    margin-top: 150px;   
 }
 .es-faq::after{
     content: "\2228";
     margin-left: 800px;
     margin-bottom: 670px;
 }
+
 .matita{
     height: 500px;
     width: 1200px;
