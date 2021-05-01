@@ -133,7 +133,7 @@ text-align: center;
     margin-top: 30px;
 }
 .enterprice{
-    width: 100%;
+    width: 1170px;
     border: 2px solid black;
 }
 
@@ -183,7 +183,7 @@ text-align: center;
 }
 .partner-2{
     width: 50%;
-    height: 400px ;
+    height: 400px;
     line-height: 30px;
     margin-top: 20px;
     padding-left: 50px;  
@@ -204,7 +204,6 @@ text-align: center;
     margin: 20px;
     border:3px solid lightcoral;
 }
-
 
 .foto{
     height: 230px;
@@ -244,9 +243,86 @@ text-align: center;
     background-image: url(../img/business-feature-security.png);
     background-size: cover;
 }
+.container-5{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.dev{
+    text-align: left;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.box{
+    float: left;
+    height: 500px;
+    width: calc(100% / 3);
 
+    border: 5px solid green;
+}
 
+.box-2{
+    float: left;
+    width: calc(100% / 3);
+    border: 5px solid black;
+    height: 500px;
+}
+.box-3{
+    float: left;
+    height: 500px;
+    width: calc(100% / 3);
+    border: 5px solid blueviolet;
+}
+.box-4{
+    float: left;
+    height: 300px;
+    width: 100%;
+    background-color: #b4d0e7;
+    color:saddlebrown;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 190px;
+    border: 5px solid blue;
+}
 
-
-
-
+.client{
+    width: 100%; 
+}
+#oxf{
+    height: 50px;
+    width: 180px;
+    font-weight: 600px;  
+}
+.container-6{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.domande{
+    margin-top: 60px;
+}
+[class^=es-faq]{
+    margin-top: 30px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.centrato{
+    margin-left: 100px;    
+}
+.es-faq::after{
+    content: "\2228";
+    margin-left: 800px;
+    margin-bottom: 670px;
+}
+.last{
+    float: left;
+    height: 300px;
+    width: calc((1000px /5) - 30px);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 3px solid green;
+}
+.last li{
+    display:list-item;
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 10px;
+}
