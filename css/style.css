@@ -35,7 +35,7 @@ body{
    margin-right: 20px;
 }
 
-li{
+.menu li{
     list-style: none;
     display: inline-block;
     font-size: 15px;
@@ -254,7 +254,7 @@ text-align: center;
 }
 /*START BLOCCHI COLORATI*/
 .layout{
-    height: 600px;
+
     border: 1px solid red;   
 }
 .box-1{
@@ -263,7 +263,8 @@ text-align: center;
 }
 .box-2{
     width: 33.3%;
-    height: 500px;  
+    height: 500px; 
+    background-color: lightgray; 
 }
 .box-3 {
     width: 33.3%;
@@ -277,13 +278,22 @@ text-align: center;
 .green{
     background-color: green;
 }
-.designit  ,  .asu , .topps  , .world{
-    height: 50px;
-    
+.designit  ,  .asu , .topps  , .world , .planet , .channel{
+    height: 70px;
+  padding-top: 10px;  
+  padding-left: 10px;
+  filter: invert();
+}
+.grey{
+    height: 70px;
 }
 .florida{
-    height: 30px;
-    
+    height: 20px;
+  filter: invert();
+}
+.hearst{
+    height: 20px;
+    filter: invert();
 }
 .brown{
     background-color: brown;
@@ -293,6 +303,13 @@ text-align: center;
 }
 .arancio{
     background-color: orangered;
+}
+.grey{
+    background-color: lightgray;
+}
+.improve{
+    text-align: center;
+    padding-top: 120px;
 }
 .rosso{
     background-color: red;
@@ -307,13 +324,27 @@ text-align: center;
     background-color: yellow;
 }
 /*box orizzontale*/
-.client{
-    width: 100%; 
+.lay{
+   width: 100%;
+   background-color: turquoise;
+   height: 300px;
 }
+.client-1{
+  position: relative;
+    width: 70%;
+   margin: 0 auto;
+   transform: translate(-50% , -50%);
+   top: 50%;
+   left: 50%;
+}
+
 #oxf{
     height: 50px;
     width: 180px;
     font-weight: 600px;  
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 /*sezione faq*/
 
@@ -356,7 +387,7 @@ text-align: center;
 }
 
 .last li{
-   display: inline-block;
+    list-style: none;
     font-size: 15px;
     line-height: 30px;
     margin-left: 10px;
