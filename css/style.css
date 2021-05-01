@@ -255,23 +255,19 @@ text-align: center;
 /*START BLOCCHI COLORATI*/
 .layout{
     height: 600px;
-    border: 1px solid red;
-    
+    border: 1px solid red;   
 }
 .box-1{
     width: 33.3%;
     height: 500px;
-    border: 1px solid black;
 }
 .box-2{
     width: 33.3%;
-    height: 500px;
-    border: 1px solid black;
+    height: 500px;  
 }
 .box-3 {
     width: 33.3%;
-    height: 500px;
-    border: 1px solid black;
+    height: 500px;  
 }
 .box{
     float: left;
@@ -281,20 +277,34 @@ text-align: center;
 .green{
     background-color: green;
 }
-.immagine-1{
+.designit  ,  .asu , .topps  , .world{
     height: 50px;
+    
 }
-.immagine 3 {
-    height: 50px;
+.florida{
+    height: 30px;
+    
 }
 .brown{
     background-color: brown;
 }
-.yellow{
+.blu{
     background-color: lightblue;
 }
-.rosso{
+.arancio{
     background-color: orangered;
+}
+.rosso{
+    background-color: red;
+}
+.azzurro{
+    background-color: lightblue;
+}
+.scuro{
+    background-color: darkblue;
+}
+.yellow{
+    background-color: yellow;
 }
 /*box orizzontale*/
 .client{
