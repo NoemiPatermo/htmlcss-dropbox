@@ -254,21 +254,26 @@ text-align: center;
 }
 .box{
     float: left;
-    height: 500px;
+    height: 600px;
     width: calc(100% / 3);
 
     border: 5px solid green;
+}
+.green .brown{
+    width: 50%;
+    height: 150px;
+    border: 2px solid red;
 }
 
 .box-2{
     float: left;
     width: calc(100% / 3);
     border: 5px solid black;
-    height: 500px;
+    height: 600px;
 }
 .box-3{
     float: left;
-    height: 500px;
+    height: 600px;
     width: calc(100% / 3);
     border: 5px solid blueviolet;
 }
@@ -312,17 +317,25 @@ text-align: center;
     margin-left: 800px;
     margin-bottom: 670px;
 }
+.matita{
+    height: 500px;
+    width: 1200px;
+    margin-top: 20px;
+    border: 2px solid red;
+}
 .last{
     float: left;
     height: 300px;
-    width: calc((1000px /5) - 30px);
-    margin-bottom: 30px;
-    margin-top: 30px;
+    width: calc((1200px /5) - 30px );
+    margin-top: 20px;
+    margin-left: 20px;
     border: 3px solid green;
 }
+
 .last li{
-    display:list-item;
+   display: inline-block;
     font-size: 15px;
     line-height: 30px;
     margin-left: 10px;
+    
 }
