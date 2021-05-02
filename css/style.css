@@ -68,13 +68,16 @@ body{
 
 .testo-2{
     width: 35%;
-    margin-left: 60px;
+    margin-left: 50px;
     line-height: 25px;
     margin-top: 20px;
 }
 .button , .button-2{
     margin-left: 60px;
     margin-top: 20px;
+}
+.arrow{
+    font-size: 40px;
 }
 #login-2{
     background-color: blue;
@@ -96,9 +99,10 @@ body{
 .container-2{
     max-width: 1200px;
     margin: 0 auto;
+    border: 3px solid red;
 }
 .business-plan{
-margin-top: 100px;
+margin-top: 130px;
 text-align: center;
 }
 .check{
