@@ -7,7 +7,7 @@
 body{
     font-family: 'Open Sans';
 }
-.container{
+.container .container-2{
    max-width: 1200px;
     margin: 0 auto;
     padding: 0;
@@ -27,8 +27,7 @@ body{
 .top-bar{
     width: 100%;
     margin-top: 20px;
-    margin-right: 20px;
-   
+    margin-right: 20px; 
 }
 .logo{
    margin-left: 20px;
@@ -39,7 +38,11 @@ body{
     list-style: none;
     display: inline-block;
     font-size: 15px;
-    padding-right: 10px;    
+    padding-right: 10px; 
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
 }
 #login{
     background-color: blue;
@@ -119,13 +122,15 @@ margin-left: 10px;
     width: 100%;
     height: 800px;
 }
-
 .item{
     height: 32px;
     text-align: center; 
     border-bottom: 1px solid black;
     margin-top: 10px;
     font-size: 20px;
+}
+.item .fas{
+    margin-right: 5px;
 }
 .testo-professional{
     height: 150px;
@@ -142,6 +147,7 @@ margin-left: 10px;
     content: '\2714';
     color: blue;
     size: 15px;
+    margin-right: 5px;
     
 }
 .enterprice{
@@ -212,52 +218,45 @@ margin-left: 10px;
     margin: 0 auto;   
 }
 
-.integration{
+.funzionalità-dropbox{
     float: left;
     height: 500px;
     width: calc((100% / 3) - 40px);
     margin: 20px;
     border:3px solid lightcoral;
 }
-
-.foto{
+[class^="funzionalità-foto-"]{
     height: 230px;
-    background-image: url(../img/business-feature-switching-tools.png);
     background-size: cover;
+    text-align: center;
+}
+.funzionalità-foto-1{
+    background-image: url(../img/business-feature-switching-tools.png);   
 }
 .text{
-    text-align: center;
     margin-top: 25px;
     line-height: 25px;
 }
 .text-p{
     margin-top: 30px;  
 }
-.foto-2{
-    height: 230px;
+.funzionalità-foto-2{
     background-image: url(../img/business-feature-coordinate-it.png);
-    background-size: cover;
 }
-.foto-3{
-    height: 230px;
+.funzionalità-foto-3{
     background-image: url(../img/business-feature-multi-device.png);
-    background-size: cover;
 }
-.foto-4{
-    height: 230px;
+.funzionalità-foto-4{
     background-image: url(../img/business-feature-integrations-it.png);
-    background-size: cover;
 }
-.foto-5{
-    height: 230px;
+.funzionalità-foto-5{
     background-image: url(../img/business-feature-send-files-it.png);
-    background-size: cover;
 }
-.foto-6{
-    height: 230px;
+.funzionalità-foto-6{
     background-image: url(../img/business-feature-security.png);
-    background-size: cover;
 }
+
+
 .container-5{
     max-width: 1200px;
     margin: 0 auto;
@@ -275,6 +274,7 @@ margin-left: 10px;
 .box-1{
     width: 33.3%;
     height: 500px;
+
 }
 .box-2{
     width: 33.3%;
@@ -289,14 +289,16 @@ margin-left: 10px;
     float: left;
     width: 50%;
     height: 50%; 
+    line-height: 250px;
+   
+    text-align: center;
 }
 .green{
     background-color: green;
 }
 .designit  ,  .asu , .topps  , .world , .planet , .channel{
-  height: 70px;
-  padding-top: 10px;  
-  padding-left: 10px;
+  width: 70%;
+  vertical-align: middle;
   filter: invert();
 }
 .grey{
@@ -384,7 +386,7 @@ margin-left: 10px;
  
 }
 .es-faq::after{
-    content: "\2228";
+    content: "\02C5";
     margin-left: 800px;
     margin-bottom: 670px;
 }
