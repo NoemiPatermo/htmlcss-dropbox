@@ -213,7 +213,7 @@ margin-left: 10px;
     width: 120px;
     margin-top: 30px;
 }
-.container-4{
+.container-4 , .container-5{
     max-width: 1200px;
     margin: 0 auto;   
 }
@@ -223,7 +223,6 @@ margin-left: 10px;
     height: 500px;
     width: calc((100% / 3) - 40px);
     margin: 20px;
-    border:3px solid lightcoral;
 }
 [class^="funzionalità-foto-"]{
     height: 230px;
@@ -256,25 +255,16 @@ margin-left: 10px;
     background-image: url(../img/business-feature-security.png);
 }
 
-
-.container-5{
-    max-width: 1200px;
-    margin: 0 auto;
-}
 .dev{
     text-align: left;
-    margin-left: 70px;
+    margin-left: 150px;
     margin-bottom: 20px;
 }
 /*START BLOCCHI COLORATI*/
-.layout{
 
-    border: 1px solid red;   
-}
 .box-1{
     width: 33.3%;
     height: 500px;
-
 }
 .box-2{
     width: 33.3%;
@@ -290,7 +280,6 @@ margin-left: 10px;
     width: 50%;
     height: 50%; 
     line-height: 250px;
-   
     text-align: center;
 }
 .green{
@@ -303,11 +292,15 @@ margin-left: 10px;
 }
 .grey{
     height: 70px;
+    vertical-align: middle;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 .florida{
-    height: 30px;
+  height: 30px;
   filter: invert();
 }
+
 .hearst{
     height: 20px;
     filter: invert();
@@ -326,7 +319,7 @@ margin-left: 10px;
 }
 .improve{
     text-align: center;
-    padding-top: 120px;
+    margin-top: 80px;
 }
 .rosso{
     background-color: red;
@@ -354,7 +347,6 @@ margin-left: 10px;
    top: 50%;
    left: 50%;
 }
-
 #oxf{
     height: 50px;
     width: 180px;
@@ -368,9 +360,7 @@ margin-left: 10px;
 .container-6{
     max-width: 1200px;
     margin: 0 auto;
-    border: 3px solid brown;
 }
-
 .titolo-faq{
     margin-top: 100px;
     margin-bottom: 50px;
@@ -383,19 +373,20 @@ margin-left: 10px;
 .sezione-faq{
     margin-left: 100px; 
     margin-top: 100px; 
- 
 }
 .es-faq::after{
     content: "\02C5";
+    font-size: 20px;
     margin-left: 800px;
-    margin-bottom: 670px;
+    margin-bottom:200px ;
 }
 
 .footer{
     height: 350px;
     width: 1200px;
     margin-top: 20px;
-    border: 3px solid turquoise;
+    background-color: black;
+   
 }
 .last{
     float: left;
@@ -403,11 +394,13 @@ margin-left: 10px;
     width: calc((1200px /5) - 30px );
     margin-top: 20px;
     margin-left: 20px;
-    border: 3px solid green;
+    
 }
 
-.last li{
+.last li a{
     list-style: none;
+    text-decoration: none;
+    color: ghostwhite;
     font-size: 15px;
     line-height: 30px;
     margin-left: 10px;  
@@ -415,10 +408,26 @@ margin-left: 10px;
 .last li:first-child{
     font-size: 20px;
     margin-bottom: 10px;
+    color: ghostwhite;
+    list-style: none;
 } 
 .globe{
     height: 100px;
+    
     background-color: black;
+    color: white;   
+}
+.hr-footer{
+    width:100px;
+}
+
+.footer-globe{
+    margin-right: 10px;
+    padding-top: 30px;
+}
+.ita::after{
+    content: "\2228";
+    margin-left: 3px;
+    font-size: 10px;
     color: ghostwhite;
-   
 }
