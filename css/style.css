@@ -294,7 +294,7 @@ margin-left: 10px;
     background-color: green;
 }
 .designit  ,  .asu , .topps  , .world , .planet , .channel{
-    height: 70px;
+  height: 70px;
   padding-top: 10px;  
   padding-left: 10px;
   filter: invert();
@@ -303,7 +303,7 @@ margin-left: 10px;
     height: 70px;
 }
 .florida{
-    height: 20px;
+    height: 30px;
   filter: invert();
 }
 .hearst{
@@ -369,17 +369,19 @@ margin-left: 10px;
     border: 3px solid brown;
 }
 
-.domande{
+.titolo-faq{
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 [class^=es-faq]{
     margin-top: 30px;
     line-height: 30px;
     margin-bottom: 30px;
 }
-.centrato{
+.sezione-faq{
     margin-left: 100px; 
-    margin-top: 150px;   
+    margin-top: 100px; 
+ 
 }
 .es-faq::after{
     content: "\2228";
@@ -387,10 +389,11 @@ margin-left: 10px;
     margin-bottom: 670px;
 }
 
-.matita{
+.footer{
     height: 350px;
     width: 1200px;
     margin-top: 20px;
+    border: 3px solid turquoise;
 }
 .last{
     float: left;
@@ -405,9 +408,12 @@ margin-left: 10px;
     list-style: none;
     font-size: 15px;
     line-height: 30px;
-    margin-left: 10px;
-    
+    margin-left: 10px;  
 }
+.last li:first-child{
+    font-size: 20px;
+    margin-bottom: 10px;
+} 
 .globe{
     height: 100px;
     background-color: black;
